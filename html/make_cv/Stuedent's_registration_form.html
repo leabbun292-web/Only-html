@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Registration Form</title>
+</head>
+
+
+<body bgcolor="#FADBD8">
+
+    <!-- TITLE -->
+    <br>
+
+    <h1 align="center">
+        Student Registration Form
+    </h1>
+
+    <br><br>
+
+
+    <!-- FORM -->
+    <form>
+
+        <table align="center"
+               border="0"
+               cellpadding="10"
+               cellspacing="5">
+
+
+            <!-- ================= ROLL NUMBER ================= -->
+
+            <tr>
+
+                <td>
+                    <font size="5">
+                        Roll no. :
+                    </font>
+                </td>
+
+                <td>
+
+                    <input type="text"
+                           name="rollno"
+                           size="50">
+
+                </td>
+
+            </tr>
+
+
+
+            <!-- ================= STUDENT NAME ================= -->
+
+            <tr>
+
+                <td>
+                    <font size="5">
+                        Student name :
+                    </font>
+                </td>
+
+                <td>
+
+                    <input type="text"
+                           name="firstname"
+                           placeholder="First Name"
+                           size="22">
+
+                    -
+
+                    <input type="text"
+                           name="lastname"
+                           placeholder="Last Name"
+                           size="22">
+
+                </td>
+
+            </tr>
+
+
+
+            <!-- ================= FATHER NAME ================= -->
+
+            <tr>
+
+                <td>
+                    <font size="5">
+                        Father's name :
+                    </font>
+                </td>
+
+                <td>
+
+                    <input type="text"
+                           name="fathername"
+                           size="50">
+
+                </td>
+
+            </tr>
+
+
+
+            <!-- ================= DATE OF BIRTH ================= -->
+
+            <tr>
+
+                <td>
+                    <font size="5">
+                        Date of birth :
+                    </font>
+                </td>
+
+                <td>
+
+                    <input type="text"
+                           name="day"
+                           placeholder="Day"
+                           size="5">
+
+                    -
+
+                    <input type="text"
+                           name="month"
+                           placeholder="Month"
+                           size="6">
+
+                    -
+
+                    <input type="text"
+                           name="year"
+                           placeholder="Year"
+                           size="10">
+
+                    &nbsp;
+
+                    <i>(DD-MM-YYYY)</i>
+
+                </td>
+
+            </tr>
+
+
+
+            <!-- ================= MOBILE NUMBER ================= -->
+
+            <tr>
+
+                <td>
+                    <font size="5">
+                        Mobile no. :
+                    </font>
+                </td>
+
+                <td>
+
+                    <input type="text"
+                           value="+855"
+                           size="4">
+
+                    -
+
+                    <input type="tel"
+                           name="phone"
+                           size="40">
+
+                </td>
+
+            </tr>
+
+
+
+            <!-- ================= EMAIL ================= -->
+
+            <tr>
+
+                <td>
+                    <font size="5">
+                        Email id :
+                    </font>
+                </td>
+
+                <td>
+
+                    <input type="email"
+                           name="email"
+                           size="50">
+
+                </td>
+
+            </tr>
+
+
+
+            <!-- ================= PASSWORD ================= -->
+
+            <tr>
+
+                <td>
+                    <font size="5">
+                        Password :
+                    </font>
+                </td>
+
+                <td>
+
+                    <input type="password"
+                           name="password"
+                           size="50">
+
+                </td>
+
+            </tr>
+
+
+
+            <!-- ================= GENDER ================= -->
+
+            <tr>
+
+                <td>
+                    <font size="5">
+                        Gender :
+                    </font>
+                </td>
+
+                <td>
+
+                    <input type="radio"
+                           name="gender"
+                           value="Male">
+
+                    <font size="5">
+                        Male
+                    </font>
+
+
+                    &nbsp;&nbsp;
+
+
+                    <input type="radio"
+                           name="gender"
+                           value="Female">
+
+                    <font size="5">
+                        Female
+                    </font>
+
+                </td>
+
+            </tr>
+
+
+
+            <!-- ================= DEPARTMENT ================= -->
+
+            <tr>
+
+                <td>
+                    <font size="5">
+                        Department :
+                    </font>
+                </td>
+
+                <td>
+
+                    <input type="checkbox"
+                           name="department"
+                           value="CSE">
+                    CSE
+
+
+                    <input type="checkbox"
+                           name="department"
+                           value="IT">
+                    IT
+
+
+                    <input type="checkbox"
+                           name="department"
+                           value="ECE">
+                    ECE
+
+
+                    <input type="checkbox"
+                           name="department"
+                           value="Civil">
+                    Civil
+
+
+                    <input type="checkbox"
+                           name="department"
+                           value="Mech">
+                    Mech
+
+                </td>
+
+            </tr>
+
+
+
+            <!-- ================= COURSE ================= -->
+
+            <tr>
+
+                <td>
+                    <font size="5">
+                        Course :
+                    </font>
+                </td>
+
+                <td>
+
+                    <select name="course">
+
+                        <option value="">
+                            ---------------- Select Current Course ----------------
+                        </option>
+
+                        <option value="IT Engineering">
+                            IT Engineering
+                        </option>
+
+                        <option value="Computer Science">
+                            Computer Science
+                        </option>
+
+                        <option value="Cybersecurity">
+                            Cybersecurity
+                        </option>
+
+                        <option value="Software Engineering">
+                            Software Engineering
+                        </option>
+
+                        <option value="Civil Engineering">
+                            Civil Engineering
+                        </option>
+
+                        <option value="Mechanical Engineering">
+                            Mechanical Engineering
+                        </option>
+
+                    </select>
+
+                </td>
+
+            </tr>
+
+
+
+            <!-- ================= STUDENT PHOTO ================= -->
+
+            <tr>
+
+                <td>
+                    <font size="5">
+                        Student photo :
+                    </font>
+                </td>
+
+                <td>
+
+                    <input type="file"
+                           name="photo"
+                           accept="image/*">
+
+                </td>
+
+            </tr>
+
+
+
+            <!-- ================= CITY ================= -->
+
+            <tr>
+
+                <td>
+                    <font size="5">
+                        City :
+                    </font>
+                </td>
+
+                <td>
+
+                    <input type="text"
+                           name="city"
+                           size="50">
+
+                </td>
+
+            </tr>
+
+
+
+            <!-- ================= ADDRESS ================= -->
+
+            <tr>
+
+                <td>
+                    <font size="5">
+                        Address :
+                    </font>
+                </td>
+
+                <td>
+
+                    <textarea name="address"
+                              rows="6"
+                              cols="48"></textarea>
+
+                </td>
+
+            </tr>
+
+
+
+            <!-- ================= REGISTER BUTTON ================= -->
+
+            <tr>
+
+                <td></td>
+
+                <td align="center">
+
+                    <br>
+
+                    <input type="submit"
+                           value="Register">
+
+                </td>
+
+            </tr>
+
+
+        </table>
+
+    </form>
+
+
+</body>
+
+</html>
